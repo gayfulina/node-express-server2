@@ -1,2 +1,6 @@
 # Project exclude paths
-/node_modules/
+node_modules
+allure-results
+allure-report
+.git
+.idea
