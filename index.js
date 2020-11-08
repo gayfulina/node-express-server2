@@ -9,6 +9,7 @@ function home(req, res) {
     res.send('Hello')
 }
 function info(req, res) {
+
     res.send('INFO here')
 }
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="" />
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604791542654</updated>
-      <workItem from="1604791544439" duration="3229000" />
+      <workItem from="1604791544439" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -60,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604797829188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nodemon2">
+      <created>1604798095773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604798095773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,13 +79,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="express" />
     <MESSAGE value="nodemon" />
-    <option name="LAST_COMMIT_MESSAGE" value="nodemon" />
+    <MESSAGE value="nodemon2" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodemon2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="409" y="23" key="CommitChangelistDialog2" timestamp="1604797828913">
+    <state x="409" y="23" key="CommitChangelistDialog2" timestamp="1604798095634">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
-    <state x="409" y="23" key="CommitChangelistDialog2/0.23.1440.844@0.23.1440.844" timestamp="1604797828913" />
+    <state x="409" y="23" key="CommitChangelistDialog2/0.23.1440.844@0.23.1440.844" timestamp="1604798095634" />
     <state x="781" y="331" key="Github.ShareDialog" timestamp="1604792764488">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
@@ -88,9 +99,9 @@
       <screen x="0" y="23" width="1440" height="844" />
     </state>
     <state x="336" y="23" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1604793894734" />
-    <state x="524" y="159" key="Vcs.Push.Dialog.v2" timestamp="1604797832289">
+    <state x="524" y="159" key="Vcs.Push.Dialog.v2" timestamp="1604798099507">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
-    <state x="524" y="159" key="Vcs.Push.Dialog.v2/0.23.1440.844@0.23.1440.844" timestamp="1604797832289" />
+    <state x="524" y="159" key="Vcs.Push.Dialog.v2/0.23.1440.844@0.23.1440.844" timestamp="1604798099507" />
   </component>
 </project>
