@@ -14,6 +14,7 @@ const userSchema = new Schema({
     required: true,
     select: false,
   },
+  name: String,
 });
 
 userSchema.index({ email: 1 }, { unique: true });
