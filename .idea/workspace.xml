@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bodyParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bodyParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bodyParser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <updated>1604791542654</updated>
       <workItem from="1604791544439" duration="6210000" />
       <workItem from="1604810345190" duration="2140000" />
-      <workItem from="1604812525085" duration="5723000" />
+      <workItem from="1604812525085" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -183,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604884816522</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bodyParser">
+      <created>1604885812073</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604885812073</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +203,8 @@
     <MESSAGE value="api" />
     <MESSAGE value="reformat" />
     <MESSAGE value="logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="logger" />
+    <MESSAGE value="bodyParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="bodyParser" />
   </component>
   <component name="WindowStateProjectService">
     <state x="860" y="344" key="#ESLint" timestamp="1604884367966">
@@ -215,10 +219,10 @@
       <screen x="0" y="23" width="1440" height="844" />
     </state>
     <state x="369" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.844@0.23.1440.844" timestamp="1604804333378" />
-    <state x="409" y="23" key="CommitChangelistDialog2" timestamp="1604884816360">
+    <state x="409" y="23" key="CommitChangelistDialog2" timestamp="1604885811868">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
-    <state x="409" y="23" key="CommitChangelistDialog2/0.23.1440.844@0.23.1440.844" timestamp="1604884816360" />
+    <state x="409" y="23" key="CommitChangelistDialog2/0.23.1440.844@0.23.1440.844" timestamp="1604885811868" />
     <state x="781" y="331" key="Github.ShareDialog" timestamp="1604792764488">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
@@ -295,10 +299,10 @@
       <screen x="0" y="23" width="1440" height="844" />
     </state>
     <state x="240" y="56" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1604805475005" />
-    <state x="524" y="159" key="Vcs.Push.Dialog.v2" timestamp="1604884819449">
+    <state x="524" y="159" key="Vcs.Push.Dialog.v2" timestamp="1604885816031">
       <screen x="0" y="23" width="1440" height="844" />
     </state>
-    <state x="524" y="159" key="Vcs.Push.Dialog.v2/0.23.1440.844@0.23.1440.844" timestamp="1604884819449" />
+    <state x="524" y="159" key="Vcs.Push.Dialog.v2/0.23.1440.844@0.23.1440.844" timestamp="1604885816031" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
