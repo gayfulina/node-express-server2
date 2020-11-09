@@ -14,8 +14,7 @@ logger(app);
 parseResponse(app);
 cors(app);
 routes(app);
-// app.get('/', home);
-// app.post('/info', info);
+
 errorHandler(app);
 
 app.listen(PORT, () => {
