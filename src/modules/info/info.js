@@ -1,5 +1,6 @@
-let count = 0;
+const names = [];
 
 export default function info(req, res) {
-  res.send('INFO here! ' + count++);
+  names.push(req.body.name);
+  res.status(200).json(names);
 }
