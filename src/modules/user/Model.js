@@ -2,7 +2,9 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose;
 
-const user = new Schema({
+const userSchema = new Schema({
   email: String,
   password: String,
 });
+
+export default mongoose.model('User', userSchema);
