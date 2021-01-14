@@ -5,5 +5,5 @@ import baseRouter from '../_base/Routes';
 export default function routes(app) {
   app.use('/info', infoRouter);
   app.use('/user', userRouter);
-  app.use('/_base', baseRouter);
+  app.use('/base', baseRouter);
 }
