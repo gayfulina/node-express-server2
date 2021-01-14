@@ -1,4 +1,4 @@
-import Base from './Model';
+import Base from '../Model';
 
 export default function create(req, res) {
   const newBase = new Base({

@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import create from './create';
-import getAll from './getAll';
-import udateById from './udateById';
-import deleteById from './deleteById';
-import deleteAll from './deleteAll';
+import create from './controllers/create';
+import getAll from './controllers/getAll';
+import udateById from './controllers/udateById';
+import deleteById from './controllers/deleteById';
+import deleteAll from './controllers/deleteAll';
 
 const router = Router();
 
