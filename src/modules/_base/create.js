@@ -2,8 +2,7 @@ import Base from './Model';
 
 export default function create(req, res) {
   const newBase = new Base({
-    email: req.body.email,
-    password: req.body.password,
+    title: req.body.title,
   });
   newBase
     .save()

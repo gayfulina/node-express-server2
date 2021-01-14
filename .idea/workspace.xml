@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="baseGetAll">
+      <change afterPath="$PROJECT_DIR$/src/modules/_base/baseGetAll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -118,7 +120,9 @@
       <workItem from="1604791544439" duration="6210000" />
       <workItem from="1604810345190" duration="2140000" />
       <workItem from="1604812525085" duration="19583000" />
-      <workItem from="1610586795609" duration="2387000" />
+      <workItem from="1610586795609" duration="3195000" />
+      <workItem from="1610596235352" duration="82000" />
+      <workItem from="1610596341281" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -309,17 +313,33 @@
       <option name="project" value="LOCAL" />
       <updated>1610595091447</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="base3">
+      <created>1610595591442</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610595591442</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="express" />
-    <MESSAGE value="nodemon" />
-    <MESSAGE value="nodemon2" />
     <MESSAGE value="debugger" />
     <MESSAGE value="eslint" />
     <MESSAGE value="babel" />
@@ -342,6 +362,13 @@
     <MESSAGE value="delete2" />
     <MESSAGE value="base" />
     <MESSAGE value="base2" />
-    <option name="LAST_COMMIT_MESSAGE" value="base2" />
+    <MESSAGE value="get" />
+    <MESSAGE value="base3" />
+    <MESSAGE value="baseGetAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="baseGetAll" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
