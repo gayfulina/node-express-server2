@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="base refactor3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/_base/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/baseDeleteAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/deleteAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/baseDeleteById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/deleteById.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/baseGetAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/getAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/baseUpdateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/udateById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/getById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/getById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/udateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/updateById.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/_base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/_base/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,22 +62,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/_base/controllers" />
       <recent name="$PROJECT_DIR$/src/modules/_base" />
       <recent name="$PROJECT_DIR$/src/modules/_base" />
       <recent name="$PROJECT_DIR$/src/modules/user" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/info.js" />
       <recent name="$PROJECT_DIR$/src/home.js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/_base/controllers" />
       <recent name="$PROJECT_DIR$/src/modules/info" />
       <recent name="$PROJECT_DIR$/src/modules/home" />
       <recent name="$PROJECT_DIR$/src/modules/core" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Attach to Node.js/Chrome.Debug">
@@ -126,7 +124,7 @@
       <workItem from="1604812525085" duration="19583000" />
       <workItem from="1610586795609" duration="3195000" />
       <workItem from="1610596235352" duration="82000" />
-      <workItem from="1610596341281" duration="1330000" />
+      <workItem from="1610596341281" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -331,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610596947275</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="base refactor">
+      <created>1610652939640</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610652939640</updated>
+    </task>
+    <task id="LOCAL-00031" summary="base refactor2">
+      <created>1610653210343</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610653210343</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,9 +363,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="babel" />
-    <MESSAGE value="babel2" />
-    <MESSAGE value="api" />
     <MESSAGE value="reformat" />
     <MESSAGE value="logger" />
     <MESSAGE value="bodyParser" />
@@ -376,7 +385,10 @@
     <MESSAGE value="baseGetAll" />
     <MESSAGE value="base get" />
     <MESSAGE value="crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="crud" />
+    <MESSAGE value="base refactor" />
+    <MESSAGE value="base refactor2" />
+    <MESSAGE value="base refactor3" />
+    <option name="LAST_COMMIT_MESSAGE" value="base refactor3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,6 @@
 import Base from './Model';
 
-export default function baseGetById(req, res) {
+export default function getById(req, res) {
   const baseId = req.params.baseId;
 
   Base.findById(baseId)
