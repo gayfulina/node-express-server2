@@ -1,4 +1,4 @@
-import Base from './Model';
+import Base from '../Model';
 
 export default function getById(req, res) {
   const baseId = req.params.baseId;

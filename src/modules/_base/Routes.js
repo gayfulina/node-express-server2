@@ -9,10 +9,10 @@ import getById from './controllers/getById';
 const router = Router();
 
 router.post('/', create);
-router.post('/', getAll);
-router.post('/', updateById);
-router.post('/', deleteById);
-router.post('/', deleteAll);
-router.post('/', getById);
+router.get('/', getById);
+router.get('/', getAll);
+router.patch('/', updateById);
+router.delete('/', deleteById);
+router.delete('/', deleteAll);
 
 export default router;
