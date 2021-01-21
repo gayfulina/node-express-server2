@@ -1,8 +1,8 @@
 import Book from '../Model';
 
 export default function deleteById(req, res) {
-  //const bookId = req.params.bookId;
-  const { bookId = '' } = req.params;
+  const bookId = req.params.bookId;
+  // const { bookId = '' } = req.params;
 
   Book.deleteOne({ _id: bookId })
     .then((result) => {

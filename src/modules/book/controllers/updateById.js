@@ -3,8 +3,6 @@ import Book from '../Model';
 export default function updateById(req, res) {
   const bookId = req.params.bookId;
 
-  delete req.body.password;
-
   Book.updateOne({ _id: bookId }, req.body)
     .exec()
     .then((result) => {

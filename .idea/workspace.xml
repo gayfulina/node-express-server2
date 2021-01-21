@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/updateById.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/deleteById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/deleteById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/updateById.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,7 @@
       <workItem from="1610653434909" duration="1192000" />
       <workItem from="1610739610743" duration="2806000" />
       <workItem from="1610761734221" duration="544000" />
-      <workItem from="1611191689463" duration="3796000" />
+      <workItem from="1611191689463" duration="5486000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611196410174</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="author">
+      <created>1611196686724</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1611196686724</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +395,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="bodyParser" />
     <MESSAGE value="bodyParser2" />
     <MESSAGE value="cors" />
     <MESSAGE value="refactor" />
@@ -412,7 +419,8 @@
     <MESSAGE value="base refactor3" />
     <MESSAGE value="base refactor4" />
     <MESSAGE value="base refactor5" />
-    <option name="LAST_COMMIT_MESSAGE" value="base refactor5" />
+    <MESSAGE value="author" />
+    <option name="LAST_COMMIT_MESSAGE" value="author" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
