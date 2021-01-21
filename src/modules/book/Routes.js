@@ -9,7 +9,7 @@ import getById from './controllers/getById';
 const router = Router();
 
 router.post('/', create);
-router.post('/search', search); // POST localhost:5000/base/search
+router.post('/search', search); // POST localhost:5000/book/search
 router.get('/:userId', getById);
 router.delete('/:userId', deleteById);
 router.patch('/:userId', updateById);

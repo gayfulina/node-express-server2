@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="base refactor4">
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="base refactor5">
+      <change afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/deleteAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/deleteById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/getById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/book/controllers/updateById.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/getById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/getById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/deleteById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/deleteById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/getAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/core/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/core/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +55,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/_base/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules" />
       <recent name="$PROJECT_DIR$/src/modules/_base/controllers" />
       <recent name="$PROJECT_DIR$/src/modules/_base" />
       <recent name="$PROJECT_DIR$/src/modules/_base" />
       <recent name="$PROJECT_DIR$/src/modules/user" />
-      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/info.js" />
@@ -124,6 +138,9 @@
       <workItem from="1610596235352" duration="82000" />
       <workItem from="1610596341281" duration="1815000" />
       <workItem from="1610653434909" duration="1192000" />
+      <workItem from="1610739610743" duration="2806000" />
+      <workItem from="1610761734221" duration="544000" />
+      <workItem from="1611191689463" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -349,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610653456389</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="base refactor5">
+      <created>1610739697924</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610739697924</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +393,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="logger" />
     <MESSAGE value="bodyParser" />
     <MESSAGE value="bodyParser2" />
     <MESSAGE value="cors" />
@@ -394,7 +417,8 @@
     <MESSAGE value="base refactor2" />
     <MESSAGE value="base refactor3" />
     <MESSAGE value="base refactor4" />
-    <option name="LAST_COMMIT_MESSAGE" value="base refactor4" />
+    <MESSAGE value="base refactor5" />
+    <option name="LAST_COMMIT_MESSAGE" value="base refactor5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,13 +1,13 @@
-import Base from '../Model';
+import Book from '../Model';
 
-export default function getAll(req, res) {
-  Base.find()
+export default function search(req, res) {
+  Book.find()
     .exec()
     .then((result) => {
       res.status(200).json(result);
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('Base get all error');
+      res.status(400).json('Book get all error');
     });
 }

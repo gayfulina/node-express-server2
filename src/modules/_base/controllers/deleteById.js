@@ -1,7 +1,8 @@
 import Base from '../Model';
 
 export default function deleteById(req, res) {
-  const baseId = req.params.baseId;
+  //const baseId = req.params.baseId;
+  const { baseId = '' } = req.params;
 
   Base.deleteOne({ _id: baseId })
     .then((result) => {
