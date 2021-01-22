@@ -8,7 +8,11 @@ const Model = new Schema(
       type: String,
       required: true,
     },
-    bookTitle: {},
+    bookTitle: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Book',
+      required: true,
+    },
   },
 
   { timestamps: {} },

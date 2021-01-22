@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/author/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <workItem from="1610653434909" duration="1192000" />
       <workItem from="1610739610743" duration="2806000" />
       <workItem from="1610761734221" duration="544000" />
-      <workItem from="1611191689463" duration="7193000" />
+      <workItem from="1611191689463" duration="8951000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -381,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611272237132</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="author">
+      <created>1611274208139</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1611274208149</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
