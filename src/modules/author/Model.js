@@ -4,10 +4,11 @@ const { Schema } = mongoose;
 
 const Model = new Schema(
   {
-    title: {
+    author: {
       type: String,
       required: true,
     },
+    bookTitle: {},
   },
 
   { timestamps: {} },

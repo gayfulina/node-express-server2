@@ -4,8 +4,13 @@ const { Schema } = mongoose;
 
 const Model = new Schema(
   {
-    title: {
+    bookTitle: {
       type: String,
+      required: true,
+    },
+    author: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Author',
       required: true,
     },
   },
