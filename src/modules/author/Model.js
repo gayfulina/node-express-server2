@@ -4,15 +4,17 @@ const { Schema } = mongoose;
 
 const Model = new Schema(
   {
-    author: {
+    name: {
       type: String,
       required: true,
     },
-    bookTitle: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Book',
-      required: true,
-    },
+    books: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Book',
+        required: true,
+      },
+    ],
   },
 
   { timestamps: {} },

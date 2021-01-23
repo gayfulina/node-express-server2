@@ -4,6 +4,8 @@
     <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/author/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,8 @@
       <workItem from="1610653434909" duration="1192000" />
       <workItem from="1610739610743" duration="2806000" />
       <workItem from="1610761734221" duration="544000" />
-      <workItem from="1611191689463" duration="8951000" />
+      <workItem from="1611191689463" duration="9141000" />
+      <workItem from="1611419893667" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -388,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611274208149</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="author2">
+      <created>1611277939490</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1611277939492</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="bodyParser2" />
     <MESSAGE value="cors" />
     <MESSAGE value="refactor" />
     <MESSAGE value="routes" />
@@ -433,7 +442,8 @@
     <MESSAGE value="base refactor4" />
     <MESSAGE value="base refactor5" />
     <MESSAGE value="author" />
-    <option name="LAST_COMMIT_MESSAGE" value="author" />
+    <MESSAGE value="author2" />
+    <option name="LAST_COMMIT_MESSAGE" value="author2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
