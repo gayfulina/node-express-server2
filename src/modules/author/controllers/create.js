@@ -2,7 +2,7 @@ import Author from '../Model';
 
 export default function create(req, res) {
   const newAuthor = new Author({
-    title: req.body.title,
+    name: req.body.name,
   });
   newAuthor
     .save()

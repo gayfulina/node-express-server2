@@ -3,7 +3,7 @@ import * as Author from 'mongoose';
 
 export default function create(req, res) {
   const newBook = new Book({
-    name: req.body.title,
+    name: req.body.name,
     author: req.body.author,
   });
 
