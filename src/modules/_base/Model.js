@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 
 const Model = new Schema(
   {
-    title: {
+    name: {
       type: String,
       required: true,
     },
