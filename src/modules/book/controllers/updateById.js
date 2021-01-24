@@ -1,6 +1,6 @@
 import Book from '../Model';
 
-export default function update(req, res) {
+export default function updateById(req, res) {
   const bookId = req.params.bookId;
 
   Book.updateOne({ _id: bookId }, req.body)
@@ -10,6 +10,6 @@ export default function update(req, res) {
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('Book update error');
+      res.status(400).json('Book updateById error');
     });
 }

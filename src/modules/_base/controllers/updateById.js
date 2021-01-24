@@ -1,6 +1,6 @@
 import Base from '../Model';
 
-export default function update(req, res) {
+export default function updateById(req, res) {
   const baseId = req.params.baseId;
 
   Base.updateOne({ _id: baseId }, req.body)
@@ -10,6 +10,6 @@ export default function update(req, res) {
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('Base update error');
+      res.status(400).json('Base updateById error');
     });
 }

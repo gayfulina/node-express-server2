@@ -17,7 +17,7 @@ export default function create(req, res) {
       })
       .catch((err) => {
         console.log(err);
-        res.status(400).json('Author update error');
+        res.status(400).json('Author updateById error');
       });
   });
 

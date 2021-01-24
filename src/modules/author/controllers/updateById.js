@@ -1,6 +1,6 @@
 import Author from '../Model';
 
-export default function update(req, res) {
+export default function updateById(req, res) {
   const authorId = req.params.authorId;
 
   delete req.body.password;
@@ -12,6 +12,6 @@ export default function update(req, res) {
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('Author update error');
+      res.status(400).json('Author updateById error');
     });
 }

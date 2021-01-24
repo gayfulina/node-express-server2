@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="refactoring2">
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/deleteAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/getById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/controllers/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/deleteAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/getById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/update.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +127,7 @@
       <workItem from="1610739610743" duration="2806000" />
       <workItem from="1610761734221" duration="544000" />
       <workItem from="1611191689463" duration="9141000" />
-      <workItem from="1611419893667" duration="5471000" />
+      <workItem from="1611419893667" duration="6404000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -424,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611448382107</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="refactoring2">
+      <created>1611451788354</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1611451788354</updated>
+    </task>
+    <task id="LOCAL-00043" summary="refactoring3">
+      <created>1611452060984</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1611452060984</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="schema" />
     <MESSAGE value="user" />
     <MESSAGE value="user get all" />
     <MESSAGE value="index" />
@@ -469,7 +474,8 @@
     <MESSAGE value="author3" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring2" />
+    <MESSAGE value="refactoring3" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
