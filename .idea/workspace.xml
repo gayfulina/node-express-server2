@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/node-express-server2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node-express-server2.iml" afterDir="false" />
+    <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="refactoring2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/_base/controllers/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/_base/controllers/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/deleteAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/getById.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/controllers/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/deleteAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/getById.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/updateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/update.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +135,7 @@
       <workItem from="1610739610743" duration="2806000" />
       <workItem from="1610761734221" duration="544000" />
       <workItem from="1611191689463" duration="9141000" />
-      <workItem from="1611419893667" duration="3871000" />
+      <workItem from="1611419893667" duration="5471000" />
     </task>
     <task id="LOCAL-00001" summary="express">
       <created>1604792861140</created>
@@ -413,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611447360920</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="refactoring2">
+      <created>1611448382107</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611448382107</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="routes" />
     <MESSAGE value="schema" />
     <MESSAGE value="user" />
     <MESSAGE value="user get all" />
@@ -458,7 +468,8 @@
     <MESSAGE value="author2" />
     <MESSAGE value="author3" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="refactoring2" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

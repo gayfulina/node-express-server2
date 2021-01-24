@@ -1,15 +1,15 @@
 import Book from '../Model';
 
-export default function getById(req, res) {
+export default function update(req, res) {
   const bookId = req.params.bookId;
 
-  Book.findById(bookId)
+  Book.updateOne({ _id: bookId }, req.body)
     .exec()
     .then((result) => {
       res.status(200).json(result);
     })
     .catch((err) => {
       console.log(err);
-      res.status(400).json('Book get by id error');
+      res.status(400).json('Book update error');
     });
 }
