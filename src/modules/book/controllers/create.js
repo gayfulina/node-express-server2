@@ -1,8 +1,12 @@
+import mongoose from 'mongoose';
 import Book from '../Model';
 import Author from '../../author/Model';
 
 export default function create(req, res) {
+  const _id = mongoose.Types.ObjectId();
+
   const newBook = new Book({
+    _id,
     name: req.body.name,
     author: req.body.author,
   });
@@ -13,9 +17,13 @@ export default function create(req, res) {
   req.body.author.forEach((author) => {
     Author.findById(author)
       .exec()
-      .then((result) => {
-        console.log(result);
-        res.status(200).json(result);
+      .then((doc) => {
+        console.log(doc);
+        doc.book = [_id];
+        doc.save().catch((e) => {
+          throw new Error(e);
+        });
+        res.status(200).json(doc);
       })
       .catch((err) => {
         console.log(err);
