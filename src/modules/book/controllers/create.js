@@ -1,5 +1,5 @@
 import Book from '../Model';
-import * as Author from 'mongoose';
+import Author from '../../author/Model';
 
 export default function create(req, res) {
   const newBook = new Book({
@@ -7,12 +7,14 @@ export default function create(req, res) {
     author: req.body.author,
   });
 
+  console.log(req.body.author);
   //Update author
 
-  req.body.forEach((author) => {
-    Author.findById({ _id: author })
+  req.body.author.forEach((author) => {
+    Author.findById(author)
       .exec()
       .then((result) => {
+        console.log(result);
         res.status(200).json(result);
       })
       .catch((err) => {
@@ -21,6 +23,7 @@ export default function create(req, res) {
       });
   });
 
+  //Create book
   newBook
     .save()
     .then(() => {
