@@ -19,7 +19,7 @@ export default function create(req, res) {
       .exec()
       .then((doc) => {
         console.log(doc);
-        doc.book = [_id];
+        doc.book = [...doc.book, _id];
         doc.save().catch((e) => {
           throw new Error(e);
         });

@@ -8,7 +8,7 @@ const Model = new Schema(
       type: String,
       required: true,
     },
-    books: [
+    book: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Book',
