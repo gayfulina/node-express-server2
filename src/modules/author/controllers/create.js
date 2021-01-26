@@ -1,9 +1,17 @@
+import mongoose from 'mongoose';
 import Author from '../Model';
 
 export default function create(req, res) {
+  const _id = mongoose.Types.ObjectId();
+
   const newAuthor = new Author({
+    _id,
     name: req.body.name,
+    book: req.body.book,
   });
+
+  console.log();
+
   newAuthor
     .save()
     .then(() => {
