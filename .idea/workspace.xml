@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="baad0cbc-e501-4661-8c82-f50b2b82f230" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/author/controllers/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/author/controllers/create.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/book/controllers/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/book/controllers/create.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,14 +129,7 @@
       <workItem from="1610761734221" duration="544000" />
       <workItem from="1611191689463" duration="9141000" />
       <workItem from="1611419893667" duration="12774000" />
-      <workItem from="1611696859910" duration="2680000" />
-    </task>
-    <task id="LOCAL-00001" summary="express">
-      <created>1604792861140</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604792861140</updated>
+      <workItem from="1611696859910" duration="3962000" />
     </task>
     <task id="LOCAL-00002" summary="nodemon">
       <created>1604797829188</created>
@@ -473,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611698009006</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="promises">
+      <created>1611707115602</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1611707115604</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="find by id2" />
     <MESSAGE value="delete" />
     <MESSAGE value="delete2" />
     <MESSAGE value="base" />
@@ -518,7 +518,8 @@
     <MESSAGE value="book-author2" />
     <MESSAGE value="book-author3" />
     <MESSAGE value="book-author4" />
-    <option name="LAST_COMMIT_MESSAGE" value="book-author4" />
+    <MESSAGE value="promises" />
+    <option name="LAST_COMMIT_MESSAGE" value="promises" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -20,7 +20,7 @@ export default function create(req, res) {
           doc.book = [...doc.book, _id];
           doc.save().catch((err) => {
             newBook.author = authors.filter((el) => el !== author);
-            //throw new Error(err);
+            throw new Error(err);
           });
         } else {
           newBook.author = authors.filter((el) => el !== author);
@@ -28,6 +28,7 @@ export default function create(req, res) {
       })
       .catch((err) => {
         newBook.author = author.filter((el) => el !== author);
+        console.log(err);
       });
   });
 
@@ -39,5 +40,9 @@ export default function create(req, res) {
     })
     .catch((err) => {
       res.status(400).json('Book not created');
+      console.log(err);
+    })
+    .finaly(() => {
+      console.log('finaly');
     });
 }
