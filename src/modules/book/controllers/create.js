@@ -2,16 +2,17 @@ import mongoose from 'mongoose';
 import Book from '../Model';
 import Author from '../../author/Model';
 
-export default function create(req, res) {
+export default async function create(req, res) {
   const _id = mongoose.Types.ObjectId();
   const authors = req.body.author;
-
+  //CREATE NEW BOOK
   const newBook = new Book({
     _id,
     name: req.body.name,
     author: authors,
   });
 
+  //check that list of authors tat sent exist, otherwise remove from array
   const promises = req.body.author.map(async (author) => {
     await Author.findById(author)
       .exec()
@@ -23,6 +24,7 @@ export default function create(req, res) {
             throw new Error(err);
           });
         } else {
+          //update authors to add this book to author
           newBook.author = authors.filter((el) => el !== author);
         }
       })
@@ -32,6 +34,7 @@ export default function create(req, res) {
       });
   });
 
+  await Promise.all(promises);
   //Create book
   newBook
     .save()
@@ -42,7 +45,7 @@ export default function create(req, res) {
       res.status(400).json('Book not created');
       console.log(err);
     })
-    .finaly(() => {
-      console.log('finaly');
+    .finally(() => {
+      console.log('finally');
     });
 }

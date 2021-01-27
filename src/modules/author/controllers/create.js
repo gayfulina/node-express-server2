@@ -36,7 +36,7 @@ export default async function create(req, res) {
   });
 
   await Promise.all(promises);
-  //creqate Author
+  //create Author
   newAuthor
     .save()
     .then(() => {
