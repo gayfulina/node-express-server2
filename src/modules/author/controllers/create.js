@@ -4,26 +4,37 @@ import Book from '../../book/Model';
 
 export default async function create(req, res) {
   const _id = mongoose.Types.ObjectId();
-  const book = req.body.book;
+  const books = req.body.books;
 
-  // Check books
-  const bookGetByIdResult = await Book.findById(book)
-    .exec()
-    .then((result) => {
-      console.log(result);
-      return result;
-    })
-    .catch((err) => {
-      console.log(err);
-      //res.status(400).json('Author get all error');
-    });
+  const promisesBookGetById = books.map((book) =>
+    Book.findById(books)
+      .exec()
+      .then((result) => result)
+      .catch((err) => {
+        console.log(err);
+        //res.status(400).json('Author get all error');
+      }),
+  );
 
-  console.log(bookGetByIdResult);
+  console.log(promisesBookGetById);
+  const promiseResult = await Promise.all(promisesBookGetById);
+  console.log(promiseResult);
+
+  // // Check books
+  // const bookGetByIdResult = await Book.findById(books)
+  //   .exec()
+  //   .then((result) => result)
+  //   .catch((err) => {
+  //     console.log(err);
+  //     //res.status(400).json('Author get all error');
+  //   });
+  // console.log(bookGetByIdResult);
+
   //CREATE NEW AUTHOR
   const newAuthor = new Author({
     _id,
     name: req.body.name,
-    book: book,
+    book: books,
   });
 
   //create Author
